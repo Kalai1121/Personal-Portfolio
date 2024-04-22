@@ -251,14 +251,18 @@
 
     <!-- contact section-->
     <section id="contact">
-        <div class="container mt-3 contactContent">
-            <h1 class="text-center">Contact</h1>  
-            
-            <div class="form-group">
-                <button type="submit" id="submit" class="submit-button"><a href="mailto:kvani5783@gmail.com" target="_blank"><i class="fab fa-paper-plane"></i></a>Connect</button>
-            </div>
-    
-        </div>
+              
+        <div class="container">
+          <h1 class="text-center">Contact</h1>
+          <form id="myForm" action="https://formspree.io/f/xoqgynpr" method="post">
+            <input type="text" id="Name" placeholder="Name" required>
+            <input type="text" id="Email" placeholder="Email Id" required>
+            <input type="text" id="Number" placeholder="Phone Number" required>
+            <input type="text" id="subject" placeholder="Subject">
+            <textarea name="message" id="message" placeholder="Message" style="height: 200px; required"></textarea>
+          </form>
+          <button type="button" class="btn btn-success mt-3">Contact Me</button>
+         </div>
     </section>
 
     <!-- footer section-->
@@ -266,11 +270,9 @@
         <div class="container-fluid">
             <!-- social media icons -->
             <div class="social-icons mt-4">
-               
-                <a href="https://github.com/Kalai1121" target="_blank"><i class="fab fa-github"></i></a>
-                
-                <a href="https://www.linkedin.com/in/kalaivani-s-96509921b" target="_blank"><i class="fab fa-linkedin"></i></a>
-                
+                <a href="mailto:kvani5783@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a
+                <a href="https://github.com/Kalai1121" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kalaivani-s-96509921b" target="_blank"><i class="fab fa-linkedin"></i></a>    
             </div>
         </div>
     </footer>
