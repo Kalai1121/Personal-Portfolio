@@ -250,19 +250,28 @@
     </section>
 
     <!-- contact section-->
-    <section id="contact">
-              
-        <div class="container">
-          <h1 class="text-center">Contact</h1>
-          <form id="myForm" action="https://formspree.io/f/xoqgynpr" method="POST">
-            <input type="text" id="Name" placeholder="Name" required>
-            <input type="text" id="Email" placeholder="Email Id" required>
-            <input type="text" id="Number" placeholder="Phone Number" required>
-            <input type="text" id="subject" placeholder="Subject">
-            <textarea name="message" id="message" placeholder="Message" style="height: 200px; required"></textarea>
-          </form>
-          <button type="button" >Contact</button>
-         </div>
+<section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form action="https://formspree.io/f/xoqgynpr" method="POST">
+                        <input type="text" class="form-control form-control-lg" placeholder="Name" required>
+                        <input type="email" class="form-control mt-3" placeholder="Email" required>
+                      <input type="number" class="form-control mt-3" placeholder="Phone nnumber" required>
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Message" required></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Connect</button>
+                    
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <!-- footer section-->
