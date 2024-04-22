@@ -100,8 +100,12 @@ img{
     margin-top: 4rem;
     padding-top: 4rem;
 }
-myform{
+#myform{
         box-sizing: border-box;
+        display: grid;
+        place-items: center;
+        width: 100%;
+        height: 100vh;
     }
     .container{
       border-radius: 5px;
@@ -121,7 +125,7 @@ myform{
         margin-bottom: 16px;
         resize: vertical;
     }
-   button]{
+   button{
     background-color: #04aa60;
     color: white;
     padding: 12px 20px;
@@ -129,6 +133,6 @@ myform{
     border-radius: 4px;
     cursor: pointer;
    }
-   button]:hover{
+   button:hover{
     background-color: #45a049;
    }
