@@ -83,10 +83,10 @@ img{
     font-size: 36px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+.fa-envelope:hover,.fa-github:hover,.fa-linkedin:hover {
     color: #008000;
 }
-.fab {
+.fab,.fas {
     color: #000000;
 }
 /* footer styling */
